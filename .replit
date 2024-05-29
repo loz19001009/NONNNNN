@@ -1,0 +1,7 @@
+run = "node -r repl.uptime/start index.js"
+[nix]
+channel = "stable-22_11"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
